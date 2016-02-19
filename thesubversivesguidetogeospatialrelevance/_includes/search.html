@@ -1,0 +1,16 @@
+<p class="search-title">Where to?</p>
+<!-- Tag Cloud -->
+<ul class="tag-cloud">
+{% for category in site.categories %}
+    <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+        <a href="/{{ category | first | slugize }}/">
+            {{ category | first }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+
+<div id="search-demo-container">
+  <input type="text" id="search-input" placeholder="search...">
+  <ul id="results-container"></ul>
+</div>
