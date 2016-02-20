@@ -174,7 +174,6 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
-    text-align: right;
 }
 
 @include media-query($on-laptop) {
@@ -197,6 +196,9 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
         text-align: center;
 
+        #search-demo-container {
+          float: none;
+        }
         #search-input {
           width: 200px;
           margin: 0 auto;
@@ -316,6 +318,9 @@
 /**
  * Search
  */
+ #search-demo-container {
+   float: right;
+ }
  p.search-title {
    font-family: $title-font-family;
    text-align: center;
