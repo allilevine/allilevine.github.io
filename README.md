@@ -6,7 +6,8 @@ The Guide is live at [allilevine.github.io](https://allilevine.github.io/).
 
 To add a city, add a folder named for that city to the root directory. Add an index.html file to the folder that includes the following:
 
-```---
+```
+---
 layout: category
 title: CityNameHere
 category: citynamehere
