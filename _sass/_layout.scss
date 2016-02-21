@@ -437,6 +437,7 @@ ul.tag-cloud {
   @include media-query($on-palm) {
     .homepage {
       background: #000 url('/assets/bg-sm.jpg') no-repeat left center;
+      background-size: cover;
     }
   }
   .photo-credit {
