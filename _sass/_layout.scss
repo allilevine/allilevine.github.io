@@ -434,6 +434,11 @@ ul.tag-cloud {
     background-size: cover;
     padding-bottom: 50px;
   }
+  @include media-query($on-palm) {
+    .homepage {
+      background-image: url('/assets/bg-sm.jpg');
+    }
+  }
   .photo-credit {
     width: 200px;
     text-align: center;
