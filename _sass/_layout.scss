@@ -115,12 +115,20 @@
     }
 }
 
+
+// Nav on homepage
 .homepage .site-nav .page-link {
   color: $white;
   background: transparent;
 }
 
-
+// Nav on homepage mobile
+@include media-query($on-palm) {
+  .homepage .site-nav .page-link {
+    color: $grey-color-dark;
+    background: transparent;
+  }
+}
 
 /**
  * Site footer
