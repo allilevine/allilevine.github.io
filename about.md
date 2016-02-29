@@ -4,4 +4,12 @@ title: About
 permalink: /about/
 ---
 
-{{ site.title }} is a collection of points of interest that challenge how we define historical significance. It's like a tour guide, but instead of pointing out the usual landmarks, we're gathering objects, places, and journeys that highlight contributions by people that aren't usually recognized, either because they're from a marginalized group or because the established view of history would rather forget the roots of change.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jglovier" %} /
+[jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
